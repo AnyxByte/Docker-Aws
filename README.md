@@ -149,8 +149,8 @@ VPC
 
 | Resource | Screenshot |
 |----------|-----------|
-| ECS Cluster (Active) | ![ECS Cluster](screenshots/ecs-cluster.png) |
-| Task Definition (docker-aws:1) | ![Task Definition](screenshots/task-definition.png) |
+| ECS Cluster (Active) | <img width="1920" height="1080" alt="Screenshot from 2026-04-13 10-23-20" src="https://github.com/user-attachments/assets/59ff8b84-5433-4606-bb8b-c05bd9f901bf" /> |
+| Task Definition (docker-aws:1) | <img width="1920" height="1080" alt="Screenshot from 2026-04-13 10-25-33" src="https://github.com/user-attachments/assets/5220d5ca-31af-4985-ba42-9324084900cd" /> |
 
 ---
 
@@ -171,7 +171,6 @@ VPC
 | Frontend | React, Monaco Editor |
 | Backend | Node.js, Express |
 | Real-time Sync | Socket.io, Yjs |
-| Database | MongoDB |
 | Containerization | Docker |
 | Registry | AWS ECR |
 | Orchestration | AWS ECS (Fargate) |
@@ -181,28 +180,8 @@ VPC
 
 ---
 
-## 🏃 Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/realtime-code-editor.git
-cd realtime-code-editor
-
-# Install dependencies
-npm install
-
-# Start dev server
-npm run dev
-```
-
 ### Run with Docker locally
 ```bash
 docker build -t realtime-code-editor .
 docker run -p 3000:3000 realtime-code-editor
 ```
-
----
-
-## 📄 License
-
-MIT License © 2026 Suprodip
