@@ -97,7 +97,6 @@ docker push \
 - **Cluster Name:** `smart-rhinoceros-ct8wvz`
 - **Region:** `ap-northeast-1` (Tokyo)
 - **Status:** Active
-- **CloudWatch Monitoring:** Enabled
 
 ---
 
